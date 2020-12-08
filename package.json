@@ -30,13 +30,13 @@
     "url": "https://github.com/devmark/ngx-slick/issues"
   },
   "devDependencies": {
-    "@angular/common": "^7.2.16",
-    "@angular/compiler": "^7.2.16",
-    "@angular/compiler-cli": "^7.2.16",
-    "@angular/core": "^7.2.16",
-    "@angular/forms": "^7.2.16",
-    "@angular/platform-browser": "^7.2.16",
-    "@angular/platform-browser-dynamic": "^7.2.16",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/forms": "^8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "@angular/platform-browser-dynamic": "^8.2.14",
     "@compodoc/compodoc": "^1.0.0-beta.10",
     "@types/jasmine": "2.5.53",
     "@types/node": "~6.0.60",
@@ -63,17 +63,18 @@
     "protractor": "~5.1.2",
     "rollup": "^0.62.0",
     "run-sequence": "^1.2.2",
-    "rxjs": "~6.2.1",
+    "rxjs": "~6.6.3",
     "systemjs": "^0.20.12",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "~3.2.4",
-    "zone.js": "^0.8.26"
+    "typescript": "~3.5.3",
+    "zone.js": "^0.9.1"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
+    "@angular-devkit/schematics": "^11.0.3",
     "@types/slick-carousel": "^1.6.32",
     "slick-carousel": "^1.8.1"
   }
