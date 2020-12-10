@@ -1,4 +1,6 @@
 /* eslint-disable */
+require('@angular/compiler-cli');
+
 var gulp = require('gulp'),
   path = require('path'),
   ngc = require('@angular/compiler-cli/src/main').main,
