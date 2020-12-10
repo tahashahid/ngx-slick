@@ -13,7 +13,8 @@
     "playground:build": "tsc -p playground -w",
     "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
     "test": "tsc && karma start",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points &&  npm run build-lib",
+    "ngcc": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
+    "postinstall": "npm run build-lib",
     "build-lib": "ng-packagr -p package.json"
   },
   "ngPackage": {
@@ -81,11 +82,9 @@
     "zone.js": "^0.10.3",
     "@types/slick-carousel": "^1.6.32",
     "slick-carousel": "^1.8.1"
-
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
